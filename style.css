@@ -76,3 +76,26 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
+.portfolio-gallery {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.portfolio-item {
+    text-align: center;
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.description {
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 10px;
+}
